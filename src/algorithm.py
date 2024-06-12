@@ -2,7 +2,6 @@ from abc import ABC, abstractmethod
 import heapq, re
 from copy import deepcopy, copy
 from util import matrixToWordList
-import util
 
 class State:
     def __init__(self, matrix, fx, parent, wordList, index, visited):
